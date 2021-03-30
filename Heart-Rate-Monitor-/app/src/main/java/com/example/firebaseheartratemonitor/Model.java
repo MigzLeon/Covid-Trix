@@ -1,0 +1,27 @@
+package com.example.firebaseheartratemonitor;
+
+public class Model
+{
+    // Variable to store data corresponding
+    // to firstname keyword in database
+
+     String HeartRate;
+     String SPO2;
+     String TimeDate;
+
+    public String getTimeDate()
+    {
+        return TimeDate;
+    }
+
+    public String getHeartRate()
+    {
+        return HeartRate;
+    }
+
+    public String getSPO2()
+    {
+        return SPO2;
+    }
+
+}
